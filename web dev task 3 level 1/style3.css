@@ -1,0 +1,168 @@
+/* Basic Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg, #ff9a8b, #f2f2f2);
+    /* Gradient background */
+}
+
+
+/* Calculator Container */
+
+.calculator {
+    width: 320px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* Display Screen */
+
+.display {
+    width: 100%;
+    height: 50px;
+    text-align: right;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    color: #333;
+    font-weight: bold;
+}
+
+
+/* Button Grid */
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 100%;
+}
+
+
+/* Button Styling */
+
+.btn {
+    padding: 20px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    font-weight: bold;
+}
+
+
+/* Color Scheme for Buttons */
+
+.btn {
+    background-color: #e0e0e0;
+    /* Light gray background for all buttons */
+    color: #333;
+    /* Dark text color for readability */
+}
+
+
+/* Special Buttons (Operators and Equal Sign) */
+
+.btn:hover {
+    background-color: #ff6347;
+    /* Tomato red for hover */
+    color: #fff;
+    transform: scale(1.1);
+    /* Slightly enlarge on hover */
+}
+
+.btn:active {
+    background-color: #d84d3f;
+    /* Darker red when button is pressed */
+}
+
+
+/* Number Buttons */
+
+.btn:nth-child(-n+9) {
+    /* First 9 buttons (numbers 0-9) */
+    background-color: #48c78e;
+    /* Light green */
+    color: white;
+}
+
+.btn:nth-child(-n+9):hover {
+    background-color: #43b07a;
+    /* Darker green on hover */
+}
+
+.btn:nth-child(-n+9):active {
+    background-color: #388e5b;
+    /* Darker green when active */
+}
+
+
+/* Operator Buttons (+, -, *, /) */
+
+.btn:nth-child(4n) {
+    background-color: #ffb347;
+    /* Light orange for operators */
+    color: white;
+}
+
+.btn:nth-child(4n):hover {
+    background-color: #f9a825;
+    /* Darker orange on hover */
+}
+
+.btn:nth-child(4n):active {
+    background-color: #f57f17;
+    /* Darker orange when active */
+}
+
+
+/* Clear and Equal Buttons */
+
+.btn:nth-child(16) {
+    background-color: #ff4757;
+    /* Bright red for clear */
+    color: white;
+}
+
+.btn:nth-child(16):hover {
+    background-color: #e84118;
+}
+
+.btn:nth-child(16):active {
+    background-color: #c0392b;
+}
+
+.btn:nth-child(15) {
+    background-color: #1e90ff;
+    /* Blue for equal sign */
+    color: white;
+}
+
+.btn:nth-child(15):hover {
+    background-color: #3498db;
+}
+
+.btn:nth-child(15):active {
+    background-color: #2980b9;
+}

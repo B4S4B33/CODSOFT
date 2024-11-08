@@ -1,0 +1,183 @@
+/* Main Background */
+
+main {
+    background-color: #e0f7fa;
+    /* Light cyan-blue for the main background */
+}
+
+
+/* Reset margins and paddings */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Header */
+
+.header {
+    background-color: #01579b;
+    /* Dark blue for the header background */
+    color: #e1f5fe;
+    /* Very light blue for text */
+}
+
+.header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #03a9f4;
+    /* Bright blue for logo */
+}
+
+.header .contact-info {
+    font-size: 0.9rem;
+    color: #81d4fa;
+    /* Soft blue for contact info */
+}
+
+.header .btn-warning {
+    color: #0d47a1;
+}
+
+
+/* Hero Section with Gradient Background */
+
+.hero {
+    background: linear-gradient(135deg, #0277bd, #4fc3f7);
+    /* Gradient from dark to light blue */
+    padding: 5rem 0;
+    color: #e0f2f1;
+    /* Light blue for text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #0d47a1;
+    /* Deep blue for headline */
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #b3e5fc;
+    /* Softer light blue */
+}
+
+.hero a {
+    margin: 0 10px;
+    color: #ffffff;
+    /* White text for buttons */
+    background-color: #0d47a1;
+    /* Deep blue button background */
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.hero a:hover {
+    background-color: #333333;
+    /* Dark gray on hover */
+    color: #ffffff;
+    /* White text on hover */
+}
+
+
+/* About Us Section with Solid Background */
+
+.about-us {
+    background-color: #b3e5fc;
+    /* Soft blue */
+    color: #01579b;
+    /* Dark blue for text */
+}
+
+.about-us h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #0277bd;
+    /* Slightly darker blue */
+}
+
+.about-us p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    color: #01579b;
+}
+
+
+/* Services Section with Gradient Background */
+
+.services {
+    background: linear-gradient(135deg, #0288d1, #81d4fa);
+    /* Blue gradient */
+    color: #004d60;
+    /* Deep teal-blue for text contrast */
+}
+
+.services h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #0d47a1;
+    /* Deep blue for section heading */
+}
+
+.service-box {
+    background-color: rgba(255, 255, 255, 0.2);
+    /* Light transparent white for contrast */
+    padding: 2rem;
+    border-radius: 8px;
+    color: #01579b;
+    /* Darker blue for service box text */
+    margin-bottom: 1.5rem;
+}
+
+.service-box h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #0277bd;
+    /* Bright blue for subheading */
+}
+
+.service-box p {
+    font-size: 1rem;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #01579b;
+    /* Dark blue for footer background */
+    color: #81d4fa;
+    /* Soft light blue for text */
+    padding: 1rem 0;
+}
+
+.footer p {
+    margin: 0;
+    color: #e1f5fe;
+    /* Very light blue for text */
+}
+
+.footer a {
+    color: #ffffff;
+    /* White links in footer */
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #0d47a1;
+    /* Deep blue for hover effect */
+}

@@ -1,0 +1,239 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+/* General Styles */
+
+body {
+    line-height: 1.6;
+    color: #333;
+    background-color: #e0f7fa;
+    /* Light blue background */
+}
+
+
+/* Header */
+
+.header {
+    background-color: #1e88e5;
+    /* Medium blue */
+    color: #fff;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.header .tagline {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+
+/* About Section */
+
+.about {
+    padding: 2rem;
+    text-align: center;
+    background-color: #bbdefb;
+    /* Lighter blue */
+}
+
+.about .profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1rem;
+    border: 3px solid #1e88e5;
+    /* Border to match header color */
+}
+
+.about h2 {
+    font-size: 2rem;
+    color: #1565c0;
+    /* Deep blue */
+    margin-bottom: 1rem;
+}
+
+.about p {
+    max-width: 600px;
+    margin: 0 auto;
+    color: #555;
+}
+
+
+/* Skills Section */
+
+.skills {
+    background-color: #e3f2fd;
+    /* Very light blue */
+    padding: 2rem;
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 2rem;
+    color: #1565c0;
+    /* Deep blue */
+    margin-bottom: 1rem;
+}
+
+.skills ul {
+    list-style: none;
+}
+
+.skills li {
+    display: inline-block;
+    margin: 0.5rem 1rem;
+    background-color: #1976d2;
+    /* Dark blue */
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+
+/* Projects Section */
+
+.projects {
+    padding: 2rem;
+    text-align: center;
+    background-color: #bbdefb;
+    /* Lighter blue */
+}
+
+.projects h2 {
+    font-size: 2rem;
+    color: #1565c0;
+    /* Deep blue */
+    margin-bottom: 1rem;
+}
+
+.project {
+    margin: 1rem 0;
+    border: 2px solid #1976d2;
+    /* Border with dark blue */
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: #e3f2fd;
+    /* Very light blue */
+}
+
+.project h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.project img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #1976d2;
+    /* Dark blue border for images */
+}
+
+.project p {
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+/* Resume Section */
+
+.resume {
+    background-color: #e0f7fa;
+    /* Light blue */
+    padding: 2rem;
+    text-align: center;
+}
+
+.resume h2 {
+    font-size: 2rem;
+    color: #1565c0;
+    /* Deep blue */
+    margin-bottom: 1rem;
+}
+
+.resume a {
+    color: #01579b;
+    /* Darker blue link color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.resume a:hover {
+    color: #0288d1;
+    /* Hover color */
+}
+
+
+/* Contact Section */
+
+.contact {
+    padding: 2rem;
+    text-align: center;
+    background-color: #bbdefb;
+    /* Lighter blue */
+}
+
+.contact h2 {
+    font-size: 2rem;
+    color: #1565c0;
+    /* Deep blue */
+    margin-bottom: 1rem;
+}
+
+.contact p {
+    font-size: 1rem;
+    color: #555;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #1e88e5;
+    /* Medium blue */
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+
+/* Button Styles (Optional for Links) */
+
+button,
+a.button {
+    background-color: #1976d2;
+    /* Dark blue */
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+button:hover,
+a.button:hover {
+    background-color: #1565c0;
+    /* Deep blue on hover */
+}
